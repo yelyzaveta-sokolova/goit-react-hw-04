@@ -1,0 +1,17 @@
+.imageGallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+    max-width: 1128px;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.galleryItem {
+    width: calc((100% - 36px) / 4);
+    overflow: hidden;
+    border: 1px solid #808080;
+}
